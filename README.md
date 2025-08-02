@@ -22,6 +22,7 @@ This workflow mirrors **real-world biotherapeutic research**, where early-stage 
 ### 2. **Exploratory Data Analysis (EDA)**
 
 **a) Molecular Weight Distribution**  
+<img width="773" height="490" alt="Molecular Weight Distribution" src="https://github.com/user-attachments/assets/76d4a780-4fd8-41bc-bfd4-f3b0d6091360" />
 
 - Visualizes the range of molecular weights.  
 - Most compounds fall between **300–450 Da**, aligning with drug-likeness criteria (Lipinski’s rule).  
@@ -36,6 +37,7 @@ This workflow mirrors **real-world biotherapeutic research**, where early-stage 
 ### 3. **Correlation Insights**
 
 **Correlation Heatmap**  
+<img width="547" height="506" alt="correlation_heatmap" src="https://github.com/user-attachments/assets/40aa42f6-2dd9-4520-ae8e-9e292277b218" />
 
 - Comprehensive matrix of correlations between **molecular properties** and **pIC50**.  
 - **Key Insight:**  
@@ -47,13 +49,13 @@ This workflow mirrors **real-world biotherapeutic research**, where early-stage 
 ### 4. **Predictive Modeling**
 
 **Feature Importance Analysis**  
- 
 - Built a **baseline Random Forest Regressor** to estimate activity (`pIC50`).  
 - While the dataset size limited predictive accuracy (R² ≈ -0.1), the **model highlights which features may be worth exploring further**, e.g., **stereochemistry-related 3D descriptors**.
 
 ---
 
-### 5. **Interactive Dashboard (Streamlit)**  
+### 5. ** Dashboard (Streamlit)**  
+<img width="565" height="698" alt="Dashboard" src="https://github.com/user-attachments/assets/ed803486-50f7-4334-b991-1d670bbdb512" />
 
 - A live app allowing:
   - Filtering compounds by **molecular weight**.
